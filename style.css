@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,700&family=Heebo:wght@400;500;600&family=Josefin+Sans:wght@400;500&family=Quicksand:wght@500;700&display=swap');
+
+body {
+  background: linear-gradient(#ae70af 0%, #accbe8 40%, #9295ca 100%);
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-light {
+  background: #00000000 !important;
+  /* backdrop-filter: blur(3px);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.589); */
+  transition: all 0.5s;
+}
+.bg-light.scrolled {
+  background: #ffffff !important;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.589);
+  transition: all 0.5s;
+}
+.nav a {
+  color: white;
+}
+.nav a:hover {
+  color: rgb(192, 191, 191);
+}
+.nav.scrolled a {
+  color: rgb(155, 49, 255);
+}
+.nav.scrolled a:hover {
+  color: rgb(208, 157, 255);
+}
+.buttonToggle {
+  display: none;
+}
+.all-body-cover {
+  margin-top: 200px;
+}
+.opening {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+}
+.nama {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+.img-thumbnail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.waves {
+  margin-top: -100px;
+  margin-bottom: 70px;
+}
+.firstContainer {
+  background: linear-gradient(
+    #ffffff 0%,
+    #ffffff 50%,
+    #ffffffde 70%,
+    #ffffffb6 75%,
+    #ffffff7e 80%,
+    #ffffff49 85%,
+    #ffffff1f 90%,
+    #ffffff00 100%
+  );
+  margin-top: -80px;
+  margin-bottom: 50px;
+}
+
+.content {
+  padding-bottom: 400px;
+}
+.nameHeading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.content .row {
+  padding-bottom: 40px;
+}
+.achive {
+  margin-top: -200px;
+  margin-bottom: 30px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wavesss {
+  margin-bottom: -20px;
+}
+.fourthContainer {
+  margin-top: 200px;
+}
+.fivethContainer {
+  margin-top: -150px;
+  background-color: #fff;
+}
+.linkSosmed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.itemSosmed {
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+}
+.contactMe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -90px;
+}
+footer {
+    text-align: center;
+ }
